@@ -11,12 +11,12 @@ class School
   def add_student(name, grade)
     @roster << name
     NEW[grade => @roster]
-    # binding.pry
+    binding.pry
   end
 
   def roster
     @roster = []
   end
 end
-binding.pry
+# binding.pry
 true
